@@ -1,5 +1,5 @@
-Pipeline
-
+## Pipeline
+---
 generate\_data
 
 ↓
@@ -10,13 +10,9 @@ mongo\_to\_postgres
 
 build\_marts
 
-MongoDB
+---
 
-
-
-Коллекции:
-
-
+## Коллекции MongoDB:
 
 user\_sessions
 
@@ -28,15 +24,16 @@ user\_recommendations
 
 moderation\_queue
 
+---
 
 
-Данные генерируются скриптом generate\_data.py.
+Данные генерируются скриптом generate\_data.py
 
+---
 
+## PostgreSQL
 
-PostgreSQL
-
-staging
+# staging
 
 staging.user\_sessions
 
@@ -48,7 +45,7 @@ staging.user\_recommendations
 
 staging.moderation\_queue
 
-mart
+# mart
 
 mart.user\_activity
 
